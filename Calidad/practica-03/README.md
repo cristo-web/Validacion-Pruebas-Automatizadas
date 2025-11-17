@@ -25,21 +25,21 @@ Se implementaron **tres estadísticas adicionales** para el trabajo autónomo, a
 | :---: | :--- | :--- |
 | **1** | Exportaciones totales por mes | `EXPORTACIONES`, `MES` |
 | **2** | Provincia con mayor volumen de importaciones | `IMPORTACIONES`, `PROVINCIA` |
-| **3** | Porcentaje de ventas con Tarifa 0% | `VENTAS_NETAS_TARIFA_0`, `TOTAL_VENTAS` [cite: 52, 53] |
+| **3** | Porcentaje de ventas con Tarifa 0% | `VENTAS_NETAS_TARIFA_0`, `TOTAL_VENTAS` |
 
 ---
 
 ## 📊 Cobertura de Código (`coverage.py`)
 
-Se utilizó la librería `coverage` de Python para medir la efectividad de las pruebas unitarias sobre el código de la aplicación[cite: 56, 57]. El proceso consistió en ejecutar las pruebas usando `coverage run -m unittest discover tests` y generar el informe final con `coverage report -m`.
+Se utilizó la librería `coverage` de Python para medir la efectividad de las pruebas unitarias sobre el código de la aplicación. El proceso consistió en ejecutar las pruebas usando `coverage run -m unittest discover tests` y generar el informe final con `coverage report -m`.
 
-Name                       Stmts   Miss  Cover   Missing
---------------------------------------------------------
-src\procesador.py             26      0   100%
-tests\test_analizador.py      26      1    96%   40
---------------------------------------------------------
-TOTAL                         52      1    98%
+## 📊 Cobertura de Código
 
+| Name | Stmts | Miss | Cover | Missing |
+| :--- | :---: | :---: | :---: | :---: |
+| src\procesador.py | 26 | 0 | 100% | |
+| tests\test_analizador.py | 26 | 1 | 96% | 40 |
+| **TOTAL** | **52** | **1** | **98%** | |
 ---
 
 ## ✅ Conclusiones del Aprendizaje
